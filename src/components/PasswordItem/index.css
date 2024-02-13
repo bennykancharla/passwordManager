@@ -1,0 +1,48 @@
+.list-item {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #94a3b8;
+  border-radius: 13px;
+  margin: 5px;
+}
+
+.initial-letter {
+  color: #ffffff;
+  background-color: #10b981;
+  border-radius: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 10px;
+  margin: 0px;
+  font-size: 22px;
+}
+
+.password-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.passwords {
+  margin: 6px;
+  color: #ffffff;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+
+.del-image {
+  width: 20px;
+}
+
+.stars {
+  width: 80px;
+  margin: 6px;
+}
